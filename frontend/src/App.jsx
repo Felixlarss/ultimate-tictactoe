@@ -6,7 +6,7 @@ function App() {
   const [board, setBoard] = useState(Array(9).fill(null))
 
   return (
-    <div className="grid grid-cols-3 rounded-2xl border-5">
+    <div className="grid grid-cols-3 rounded-2xl border-gray-100 border-5">
     {board.map((value, i) => (
       <TicTacToe />
     ))}
